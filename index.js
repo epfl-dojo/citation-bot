@@ -8,7 +8,9 @@ client.once('ready', () => {
 });
 
 client.on("message", async message => {
-    const msg = await message.channel.send(`test`);
+    if (message.content.toLowerCase() == "/citations"){
+      
+    }
 });
 
 
